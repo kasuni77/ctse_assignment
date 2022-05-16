@@ -5,7 +5,7 @@ const { request } = require("express");
 let Inventory = require("../model/inventorymodel");
 
 //add data to order table
-//Post request
+//Post request - ADD
 //http://localhost:8070/inventory/add
 router.route("/add").post((req,res)=>{
     const itemName = req.body.itemName;
