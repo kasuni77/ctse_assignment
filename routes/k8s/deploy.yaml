@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: inventory
-        image: kasuni77/ctse_assignment:5c3404f2b7c216a5379f3d838f33a516bc0dd930
+        image: kasuni77/ctse_assignment:28e944f72f6fa2f3b25a4b5119bbf87faf061c6c
         ports:
         - containerPort: 3000
